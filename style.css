@@ -1,0 +1,74 @@
+*{
+
+}
+body{
+    background-color:wheat;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    background:rgb(29, 178, 184);
+    border: 2px solid;
+    height: 80vh;
+    flex-direction: column;
+    align-self: center;
+    margin:auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#result{
+    display: flex;
+    float: 1;
+    font-size: 2em;
+    border:1px solid;
+    padding:5px;
+    background: sandybrown;
+    margin-bottom: 5px ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+button {
+    background-color: #008CBA; /* Green */
+    border: 1px soloid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 10px;
+    margin-bottom: 1em;
+
+  }
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  button:active {
+    transform: scale(0.8);
+  }
+
+  input{
+      margin: 5px;
+      padding:0.5em;
+      font-size: 1.1em;
+      border:1px solid;
+  }
+  h1{
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+  }
+  h3{
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: lighter;
+
+  }
+  input{
+    background: wheat;
+
+  }
