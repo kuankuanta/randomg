@@ -1,5 +1,5 @@
 *{
-
+box-sizing: border-box;
 }
 body{
     background-color:wheat;
@@ -71,4 +71,25 @@ button {
   input{
     background: wheat;
 
+  }
+  
+  .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    border: 1px solid;
+    width:50%;
+    margin:auto;
+    background-color: turquoise;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  form{
+    color:blue;
+    padding: 1vh;
+
+  }
+  form input{
+    background:white;
   }
