@@ -73,4 +73,6 @@ button {
     width: 90%;
 
   }
-  
+  .copy{
+    align-items: left
+  }
