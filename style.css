@@ -25,7 +25,7 @@ body{
     border:1px solid;
     padding:5px;
     background: sandybrown;
-    width:90%;
+  
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
@@ -52,18 +52,13 @@ button {
   button:active {
     transform: scale(0.8);
   }
-  #btn1{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-  }
-
+  
   input{
       margin: 5px;
       padding:0.5em;
       font-size: 1.1em;
       border:1px solid;
-      width: 70%;
+      width: 40%;
   }
   h1{
     margin: auto;
@@ -78,42 +73,4 @@ button {
     width: 90%;
 
   }
-  input{
-    background: wheat;
-
-  }
   
-  .form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex:1;
-    border: 1px solid;
-    width:80vw;
-    background-color: turquoise;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-  }
-  form{
-    display: flex;
-    color:blue;
-    padding: 1vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-  }
-  form input{
-    background:white;
-    width:70%;
-    margin:auto;
-    
-  }
-  form p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
